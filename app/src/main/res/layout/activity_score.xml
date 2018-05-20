@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.svinc.educationalgame.ScoreActivity"
+    android:orientation="vertical"
+    android:background="@drawable/title_background">
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planets discovered:"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultLabel"
+        android:text="0"
+        android:textSize="80sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreLabel"
+        android:text="Knowledge Points Acquired: 200"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/twitter_social_share_button"
+        android:text="Post to Twitter"
+        android:onClick="PostTwitter"/>
+
+    <Button
+        android:id="@+id/leaderbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Leaderboard"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Main Menu"/>
+
+</LinearLayout>
